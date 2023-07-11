@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: dimgray;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+
+        header {
+            background-color: lightgray;
+            padding: 20px;
+            margin: 0px;
+            border: 0px;
+            border-radius: 5px;
+
+        }
+
+
+        nav {
+           background-color: gray;
+           color: white;
+           padding: 5px;
+           text-align: center;
+           box-shadow: 1px 1px 3px black;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            padding: 10px
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            
+        }
+
+         nav > a:hover {
+            background-color: black;
+            text-decoration: underline;
+            
+        }
+
+        #noticias {
+            background-color: rgb(197, 191, 191);
+            border: 10px;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+
+        }
+
+        article > aside {
+            background-color: dimgrey;
+            border-radius: 2px;
+            padding: 1px;
+        }
+
+        article > aside > p {
+            margin: 0px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            padding: 5px;
+            margin: 0px;
+            text-align: center;
+        } 
+
+        footer > p {
+            margin: 0px;
+        }
+
+        #assuntos {
+            color: black;
+            margin: 10px;
+            font-weight: bolder;
+        }
+
+        #noticias {
+            background-color: lightgray;
+        }
+
+    </style>
+</head>
+<body>
+   <header>
+        <h1>Meu Site</h1> 
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+   </header> 
+        <main>
+            <section id="assuntos">
+                <p>Tecnologia em Alta</p>
+            </section>
+            <section id="noticias">
+                <article>
+                    <h2>Notícias do Brasil</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, totam nihil expedita molestias esse eius tempore ex ipsa aspernatur quisquam dolore asperiores unde commodi laudantium dolores quae dolorum aliquam est.</p>
+                            <aside>
+                                <p>Escrito por Samuel Peixonauta</p>
+                            </aside>
+                </article>
+                <article>
+                    <h2>Vitória seguiu o Bruno no INSTAGRAM !</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus rem hic deleniti officiis, beatae architecto natus aliquam obcaecati ipsa perspiciatis, quisquam fugit voluptatum aperiam temporibus dolor ab? Veniam, beatae odit.</p>
+                            <aside>
+                                <p>Escrito por William Matheus</p>
+                            </aside>
+                </article>
+            </section>
+        </main>
+            <footer>
+                <p>Desenvolvido por Bruno DEV</p>
+           </footer>
+</body>
+</html>

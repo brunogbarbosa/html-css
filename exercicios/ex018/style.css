@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family= Diphylleia & display=swap');
+@import url('https://fonts.googleapis.com/css2?family= Gasoek +One & display=swap');
+@import url('https://fonts.googleapis.com/css2?family= Tilt +Prism & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+
+
+body {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-family: 'Diphylleia', serif;
+    font-size: 3em;
+}
+
+h2 {
+    font-family: 'Gasoek One', serif;
+}
+
+h3 {
+    font-family: 'Tilt Prism', cursive;
+}
+
+p {
+    Font: italic 16px, sans-Serif;
+}
